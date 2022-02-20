@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+body{
+    background-color: #222423;
+}
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(0, 0, 0, 0.4 );
+    width: 100%;
+}
+.navbar h1{
+    color: white;
+    margin-left: 50px;
+}
+.navbar ul{
+    list-style: none;
+    margin-top: 10px;
+margin-right: 70px;
+}
+.navbar ul a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px
+}
+.navbar a:before{
+content: "";
+  position: absolute;
+  background: #FF5252 ;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  transition: 0.3s ease;
+}
+.navbar ul a:hover::before{
+    width: 100%;
+}
+.navbar h1{
+    color: #FF5252;
+    }
+    .bigone{
+        display: flex;
+        margin: 30px 10px;
+        border: 1px solid;
+        border-color: white;
+        border-radius: 10px;
+        padding-bottom: 70px;
+    }
+ .left{
+    width: 80%;
+    padding: 30px 50px;
+}
+.left h1{
+    color: white;
+}
+.form{
+    padding-top: 25px;
+}
+.right{
+    display: flex;
+    width: 120%;
+}
+.right a{
+    text-decoration: none;
+    color: white;
+}
+.fb{
+background-color: #155799;
+padding: 5px 30px;
+}
+.go{
+    background-color: #DD4B39;
+    padding-right: 80px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 42px;
+}
+#fname{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 220px;
+    border-color: rgba(255, 255, 255, 0.384);
+    background-color: transparent;
+    border-radius: 3px;   
+}
+.remembertext{
+    color: white;
+    padding-left: 5px;
+    font-size: 15px;
+}
+.sumbit{
+    padding: 5px 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: #FF5252;
+    color: white;
+    margin-top: 25px;
+}
+.have{
+    color: #3379b7c5;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.vl {
+    border-left: 1px solid rgba(255, 255, 255, 0.568);
+    height: 250px;
+    margin-top: 50px;
+  }
+  .social{
+    padding-top: 100px;
+    padding-left: 20px;
+    }
+    .fb{
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    .go{
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    .goimg{
+width: 35px;
+padding-right: 10px;
+    }

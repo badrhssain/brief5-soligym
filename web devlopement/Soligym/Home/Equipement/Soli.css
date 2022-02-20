@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+}
+
+
+#wrap{
+
+    width: 100%; 
+    height: 50px; 
+    margin: 0;
+    position: relative; 
+}
+
+.navbar{
+    height: 50px;
+    padding: 0;
+    margin: 36px;
+    margin-left: 284px;
+    position: absolute; 
+    }
+.navbar li {
+    height: auto;
+    width: 135.8px; 
+    float: left;
+    text-align: center; 
+    list-style: none;
+    font: normal bold 13px/1em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+    color: white;
+    }
+
+.navbar a{
+    padding: 0px 0;
+    text-decoration: none; 
+    color: white;
+    } 
+
+.navbar a:hover {
+    color: yellow;
+    }
+    #logo{
+    margin-left: 512px;
+    }
+    #logo0{
+        margin-top: 70px;
+    }
+    #health{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+        color: white;
+    }
+    #eq{
+        margin-top: 40px;
+    }
+    #our{
+        text-align: center;
+        font-size: 45px;
+        font-family: sans-serif;
+        color: white;
+    }
+    #line{
+        width: 405px;
+        height: 4px;
+        background: #FED406;
+        border: none;
+       margin-left: 430px;
+    }
+   
+   #div1{
+  
+    width: 50%;
+    
+   }
+   #div2{
+
+    width: 50%;
+       }
+   #maindiv{
+    display: flex;
+    margin-top: 50px;
+   }
+   .photos{
+    margin-left: 130px;
+    border: solid 3px #FED406;
+   }
+   .names{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+   }
+#maindiv2{
+    margin-top: 100px;
+   
+    display: flex;
+}
+#div3{
+    width: 50%;
+    
+}
+#div4{
+    width: 50%;
+}
+#see{
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    color: white;
+    margin-top: 50px;
+    padding-bottom: 40px;
+
+}
+
+
+
+#full{
+    background-image: url(club.jpg);
+    opacity: 90%;
+    displany: none;
+}
+
+footer {
+    background-color: black;
+    
+}
+#social0{
+    display: none;
+}
+#footerfeet{
+    height: 50px;
+
+}
+#copyright{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 1%;
+}
+#baseline{
+    display: none;
+    width: 400px;
+    height: 2px;
+    background: #FED406;
+    border: none;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    }
+    #logo1{
+        display: none;
+    }
+@media  (max-width: 480px){
+    #logo{
+        width: 150px;
+        display: flex;
+        margin-left: 290px;
+        margin-bottom: 100px;
+    }
+    #logo0{
+        margin-top: -13px;
+    }
+    #health{
+        display: none;
+    }
+    #line{
+        width: 400px;
+        height: 4px;
+        background: #FED406;
+        border: none;
+        margin-left: 40px;
+               }
+    .navbar li{
+        display: none;
+    }
+    #maindiv{
+        display: block;
+    }
+    #div1{
+        width: 100%;
+    }
+    #div2{
+        width: 100%;
+    }
+    .photos{
+        
+        margin-left:37px ;
+        margin: 35px;
+
+    }
+    .names{
+        margin-left: 174px;
+        display: inline-block;
+        font-size: 16px;
+    }
+     #maindiv2{
+        display: block;
+        margin-bottom: 70px;
+    }
+    #div3{
+        width: 100%;
+    }
+    #div4{
+        width: 100%;
+    }
+    #see{
+        margin-top: 28px;
+        padding-bottom: 86px;
+    }
+    #footerfeet{
+        display: none;
+    }
+    #social {
+        width: 332px;
+        margin-top: 17px;
+    }
+    #contact{
+        color: white;
+        font-family: sans-serif;
+        text-align: center;
+        margin-right: 63px;
+        font-size: 42px;
+        font-weight: 300;
+
+    }
+    #social0 {
+        display: block;
+        margin-left: 70px;
+        padding-bottom: 50px;
+    }
+    #full{
+    background-image: url(club2.jpg);
+    opacity: 90%;
+    display: block;
+}
+#baseline{
+    display: block;
+    width: 400px;
+    height: 2px;
+    background: #FED406;
+    border: none;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+#menu{
+    height: 27px;
+
+}
+#logo1{
+    float: left;
+    display: block;
+    position: relative;
+    margin-left: 20px;
+}
+#logo2{
+
+    position: relative;
+}
+#sologo{
+    margin-right: 20px;
+}
+}

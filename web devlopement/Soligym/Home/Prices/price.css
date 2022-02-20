@@ -1,0 +1,248 @@
+*{
+	margin: 0;
+}
+#full{
+	background-image: url(promo.png);
+}
+#wrap{
+    width: 100%; 
+    height: 50px; 
+    margin: 0;
+    position: relative; 
+}
+
+.navbar{
+    height: 50px;
+    padding: 0;
+    margin: 36px;
+    margin-left: 284px;
+    position: absolute; 
+    }
+.navbar li {
+    height: auto;
+    width: 135.8px; 
+    float: left;
+    text-align: center; 
+    list-style: none;
+    font: normal bold 13px/1em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+    }
+
+.navbar a{
+    padding: 0px 0;
+    text-decoration: none; 
+    color: white;
+    } 
+
+.navbar a:hover {
+    color: yellow;
+    }
+    #logo{
+    margin-left: 512px;
+    }
+    #logo0{
+        margin-top: 70px;
+    }
+    #health{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+        color: white;
+    }
+    #eq{
+        margin-top: 40px;
+    }
+    #our{
+        text-align: center;
+        font-size: 45px;
+        font-family: sans-serif;
+        color: white;
+    }
+    #line1{
+    	width: 280px;
+    	height: 4px;
+    	border: none;
+    	background:#FED406;
+    	border-radius: 3px;
+    	margin-left: 500px;
+    }
+    #maindiv{
+    	display: flex;
+    	margin-top: 40px;
+    	padding-bottom: 20px;
+    }
+    #div1{
+    	width: 33.3%;
+    	border: none;
+    	border-radius: 10px;
+    	height: 400px;
+    	background-color:#06457B;
+    	margin: 2%;
+    }
+    #div2{
+    	width: 33.3%;
+    	border: none;
+    	border-radius: 10px;
+    	height: 400px;
+    	background-color:#06457B;
+    	margin: 2%;
+    }
+    #div3{
+    	width: 33.3%;
+    	border: none;
+    	border-radius: 10px;
+    	height: 400px;
+    	background-color:#06457B;
+    	margin: 2%;
+
+    }
+    .offers{
+    	text-align: center;
+    	padding-top: 15%;
+    	font-size: 20px;
+    	font-family: sans-serif;
+    	color: white;
+    	line-height: 70px;
+
+    }
+
+
+footer {
+    background-color: #2D2222;
+
+    
+}
+#footerfeet{
+    height: 40px;
+
+}
+#copyright{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 1%;
+}
+.dhs{
+	color:#FED406;
+}
+#social0{
+    display: none;
+}
+#social{
+display: none;
+}
+#menu{
+    display: none;
+}
+#baseline{
+    display: none;
+}
+@media  (max-width: 480px){
+    #logo{
+        width: 150px;
+        display: flex;
+        margin-left: 290px;
+        margin-bottom: 100px;
+    }
+    #logo0{
+        margin-top: -13px;
+    }
+    #health{
+        display: none;
+    }
+    #line1{
+        width: 300px;
+        height: 4px;
+        background: #FED406;
+        border: none;
+        margin-left: 90px;
+               }
+    .navbar li{
+        display: none;
+    }
+    #footerfeet{
+        display: none;
+    }
+    #social {
+        display: block;
+        width: 332px;
+        margin-top: 17px;
+    }
+    #contact{
+        color: white;
+        font-family: sans-serif;
+        text-align: center;
+        margin-right: 63px;
+        font-size: 42px;
+        font-weight: 300;
+
+    }
+    #social0 {
+        display: block;
+        margin-left: 70px;
+        padding-bottom: 50px;
+    }
+    #menu{
+        display: block;
+    height: 27px;
+
+}
+#logo1{
+    float: left;
+    display: block;
+    position: relative;
+    margin-left: 20px;
+}
+#logo2{
+
+    position: relative;
+}
+#sologo{
+    margin-right: 20px;
+}
+#div1{
+        width: 33.3%;
+        border: none;
+        border-radius: 10px;
+        height: 250px;
+        background-color:#06457B;
+        margin: 2%;
+    }
+    #div2{
+        width: 33.3%;
+        border: none;
+        border-radius: 10px;
+        height: 250px;
+        background-color:#06457B;
+        margin: 2%;
+    }
+    #div3{
+        width: 33.3%;
+        border: none;
+        border-radius: 10px;
+        height: 250px;
+        background-color:#06457B;
+        margin: 2%;
+
+    }
+    .offers{
+        text-align: center;
+        padding-top: 15%;
+        font-size: 15px;
+        font-family: sans-serif;
+        color: white;
+        line-height: 30px;
+    
+    }
+    
+    #baseline{
+    display: block;
+    width: 400px;
+    height: 2px;
+    background: #FED406;
+    border: none;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    }
+    }

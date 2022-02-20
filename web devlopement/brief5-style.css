@@ -1,0 +1,565 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@300;400;500&display=swap');
+*{
+    
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+header{
+        position: relative;
+        height: 510px;
+        color: beige;
+        
+}
+.video {
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       z-index: -1;
+       object-fit: cover;
+     }
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(0, 0, 0, 0.4 );
+    width: 100%;
+}
+.navbar h1{
+    color: white;
+    margin-left: 50px;
+}
+.navbar ul{
+    list-style: none;
+    margin-top: 10px;
+margin-right: 70px;
+}
+.navbar ul a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px
+}
+.navbar a:before{
+content: "";
+  position: absolute;
+  background: #FF5252 ;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  transition: 0.3s ease;
+}
+.navbar ul a:hover::before{
+    width: 100%;
+}
+.navbar h1{
+    color: #FF5252;
+    }
+.rectangle{
+        width: 200px;
+        margin-top: 430px;
+    }
+
+.oragnerectangle1{
+    width: 100%;
+    height: 15px;
+    background-color: #FF5252;
+}
+.main1{
+    width: 100%;
+    background-image: url("media/pic2.png");
+    background-position:center;
+    background-size: cover;
+    height: 500px;
+}
+.rectangle2{
+    width: 200px;
+    margin-top: 480px;
+}
+.bigone{
+    display: flex;
+    width: 100%;
+}
+.left{
+    width: 100%;
+}
+.right{
+    width: 100%;
+    padding: 40px;
+    color: white;
+}
+.icons{
+    margin-top: 10px;
+}
+.icons-content{
+    display: flex;
+    padding-top: 1px;
+}
+.icons h5{
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.icons img{
+    filter: brightness(5);
+    width: 35px;
+}
+.crossorange{
+    color: #FF5252;
+}
+.main2{
+    background-color: #161A1D;
+    width: 100%;
+    height: 500px;
+}
+.left2{
+    width: 100%;
+    padding: 40px 90px;
+    color: white;
+    height: 500px;
+}
+.right2{
+    width: 100%;
+    padding: 50px;
+    color: white;
+}
+.logo{
+    width: 250px;
+    margin: 80px;
+}
+.left2 h1{
+    padding-bottom: 30px;
+    margin-left: -20px;
+    color: #FF5252;
+    font-size: 40px;
+}
+.left2 h3{
+    font-weight: 500;
+    font-size: 30px;
+}
+.left2 h4{
+    font-weight: 500;
+}
+hr{
+    height:2px;
+    border-width:0;
+    background-color:#FF5252;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+}
+.main3{
+    width: 100%;
+    height: 250px;
+}
+.main3 h1{
+padding: 20px 80px;
+font-size: 40px;
+text-decoration: underline;
+text-decoration-color: #FF5252;
+}
+.main3 p{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+}
+.main4{
+    background-image: url("media/pic4.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 100%;
+    width: 100%;
+    height: 450px;
+}
+
+.left4{
+    width: 100%;
+}
+.left4 h1{
+    font-size: 50px;
+    color: white;
+padding-left:170px;
+padding-top: 50px;
+}
+.left4 p{
+    font-size: 15px;
+    color: white;
+text-align: center;
+}
+.left4 h1 strong{
+    color: #FF5252;
+}
+.form{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 30px    ;
+}
+.form2{
+    padding-left: 50px;
+}
+.edit0{
+    margin-left: 10px;
+    border: none;
+    border-color: rgba(154, 153, 151,0.4);
+    border-bottom: 2px solid;
+    background-color: transparent;
+    padding-right: 30px;
+    color: white;
+    padding-left: 10px;
+}
+.edit1{
+    border: none;
+    border-color: rgba(154, 153, 151,0.4);
+    border-bottom: 2px solid;
+    background-color: transparent;
+    padding-right: 140px;
+    color: white;
+    cursor: pointer;
+    padding-left: 10px;
+    }
+.edit{
+    border: none;
+    border-color: rgba(154, 153, 151,0.4);
+    border-bottom: 2px solid;
+    background-color: transparent;
+    padding-right: 0px;
+    color: white;
+    cursor: pointer;
+    padding-left: 10px;
+    }
+    option{
+        color: black;
+    }
+    .button{
+        color: white;
+        background-color: #FF5252;
+        padding: 5px 40px;
+        margin-left: 180px;
+        border: none;
+        border-radius: 5px;
+    }
+.right4{
+    width: 100%;
+    padding-top: 50px;
+}
+.right4 h1{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+}
+.right4 h2{
+        display: grid;
+        grid-template-rows: auto;
+        justify-content: center;
+        color: white;
+        font-size: 50px;
+    }
+.right4 h2{
+    font-size: 130px
+}
+.value {
+        border-left: 6px solid rgb(0, 0, 0);
+        height: 100px;
+ }
+ .main5{
+    width: 100%;
+}
+.left5 h1{
+    color: white;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 30px;
+}
+.left5 h1 strong{
+    color: #FF5252;
+}
+.main5 img{
+    width: 120px;
+    border-radius: 2%;
+    margin-right: 15px;
+}
+.promopic{
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.promo1:hover {
+    transform: scale(1.5); 
+    -webkit-transform: scale(1.2);
+    transition: transform .6s; 
+     }
+.right5{
+    width: 100%;
+    height: 400px;
+    background-image: url("media/pic6.jpg");
+    background-size: cover;
+}
+.right5 h1{
+    font-size: 45px;
+    color: white;
+padding-left:170px;
+}
+.right5 h1 strong{
+    color: #FF5252;
+}
+.right5 h3{
+    font-size: 17px;
+    color: white;
+padding-left:240px;
+padding-top: 30px;
+}
+.freetriali{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.edit2{
+    margin-left: 10px;
+    border: none;
+    border-color: rgba(154, 153, 151,0.4);
+    border-bottom: 2px solid;
+    background-color: transparent;
+    padding-right: 150px;
+    color: white;
+    padding-left: 10px;
+}
+.button2{
+    color: white;
+    background-color: #FF5252;
+    padding: 5px 40px;
+    margin-left: 100px;
+    border: none;
+        border-radius: 5px;
+}
+.left5{
+    width: 100%;
+    background-color: #161A1D;
+}
+.main6{
+    width: 100%;
+    height: 400px;
+    background-image: url("media/pic5.jpg");
+    background-size: cover;
+}
+
+.main6 h1{
+    font-size: 35px;
+    color: white;
+padding-left:420px;
+}
+.main6 h1 strong{
+    color: #FF5252;
+}
+.main6 h3{
+    font-size: 17px;
+    color: white;
+padding-left:540px;
+padding-top: 50px;
+}
+
+.main6 img{
+    width: 80px;
+    border-radius: 50%;
+}
+.bigdisplay{
+    display: flex;
+    padding-left: 300px;
+    padding-top: 40px;
+}
+.displaydiv{
+    display: flex;
+    padding-left: 20px;
+}
+.displaytext h7{
+    font-size: 10px;
+    letter-spacing: -0.5%;
+    color: white;
+}
+.displaytext h5{
+    color: white;
+    font-size: 10px;
+}
+.displaytext h2{
+    font-size: 17px;
+    color: white;
+}
+.displaytext{
+    padding-left: 10px;
+}
+.main7{
+    background-color: #F1F1F1;
+}
+.left7{
+    width: 120%;
+}
+.right7{
+    position: relative;
+    width: 80%;
+    padding-top: 50px;
+}
+.footerlogo{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 220px;
+    width: 200px;
+    object-fit: cover;
+    opacity: 50%;
+}
+.right7 h1{
+    font-size: 40px;
+    color: black;
+padding-left:70px;
+padding-bottom: 60px;
+font-weight: 400;
+}
+.right7 h1 strong{
+    color: #FF5252;
+}
+.right7 h4{
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+.map{
+    width: 600px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border: none;
+}
+.locationimg{
+    width: 15px;
+}
+@media only screen and (max-width:415px)
+{
+body{
+    font-size: 10px;
+}
+    .video{
+        display: none;
+    }
+    header{
+        background-image: url("back.jpeg");
+        background-position: center;
+        background-size: cover;
+    }
+    .rectangle{
+        display: none;
+    }
+    
+.left2 {
+    padding: 10px 69px;
+}
+left2 h3 {
+    font-weight: 500;
+    font-size: 20px;
+ }
+ .logo{
+     display: none;
+ }
+ .main3 h1 {
+    font-size: 30px;
+ }
+ .main3 p {
+    font-size: 18px;
+ }
+ .left4 h1 {
+    font-size: 50px;
+    padding-left: 55px;
+    padding-top: 15px;
+}
+.left4 p {
+    font-size: 13px; }
+    .bigone{
+        display: flex;
+        flex-direction: column;
+    }
+    .form {
+        display: flex;
+        padding-top: 15px;
+        padding-left: 6px;
+      }
+.edit0{
+    padding-right: 0;
+}   
+.form2 {
+    padding-left: 60px;
+}
+.edit1 {
+    padding-right: 231px;
+    margin-bottom: 5px;
+}
+.button{
+    margin-left: 95px;
+}
+.right4 h1{
+    font-size: 35px;
+}
+.right4 h2{
+    font-size: 70px;
+}
+::placeholder{
+    color: rgb(255, 0, 0);
+    opacity: 100%;
+}
+.main5 img {
+    width: 100px;
+}
+.promopic {
+    padding-left: 41px;
+    padding-top: 16px; 
+padding-bottom: 10px;
+}
+.right5 h1 {
+    padding-left: 90px;
+}
+.right5 h3{
+    padding-left: 155px;
+}
+.freetriali {
+    margin-left: 76px;
+    margin-top: 20px;
+}
+.main6 h1 {
+    font-size: 25px;
+    padding-left: 86px;
+}
+.bigdisplay {
+    display: flex;
+    padding-left: 3px;
+    padding-top: 40px;
+}
+.map {
+    width: 500px;
+    height: 350px;
+    margin-left: -13px;
+ }
+ .right7 h1 {
+    font-size: 35px;
+    padding-left: 85px;
+    padding-bottom: 20px;
+ }
+ .right7 {
+    padding-top: 23px;
+}
+.footerlogo{
+    display: none;
+}
+.right7 h4{
+    padding-left: 50px;
+}
+.right{
+    font-size: 13px;
+}
+
+    
+}
+
+      
